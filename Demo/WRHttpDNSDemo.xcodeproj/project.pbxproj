@@ -13,6 +13,14 @@
 		3F7F85A81E7FFB9000B7B3A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F85A61E7FFB9000B7B3A1 /* Main.storyboard */; };
 		3F7F85AA1E7FFB9000B7B3A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F85A91E7FFB9000B7B3A1 /* Assets.xcassets */; };
 		3F7F85AD1E7FFB9000B7B3A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F85AB1E7FFB9000B7B3A1 /* LaunchScreen.storyboard */; };
+		3F7F85E41E7FFD8900B7B3A1 /* WRDNSProviderBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85D31E7FFD8900B7B3A1 /* WRDNSProviderBase.m */; };
+		3F7F85E51E7FFD8900B7B3A1 /* WRDNSProviderQcloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85D51E7FFD8900B7B3A1 /* WRDNSProviderQcloud.m */; };
+		3F7F85E61E7FFD8900B7B3A1 /* WRURLConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85D81E7FFD8900B7B3A1 /* WRURLConnectionDelegate.m */; };
+		3F7F85E71E7FFD8900B7B3A1 /* WRURLSessionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85DA1E7FFD8900B7B3A1 /* WRURLSessionDelegate.m */; };
+		3F7F85E81E7FFD8900B7B3A1 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85DD1E7FFD8900B7B3A1 /* AFNetworkReachabilityManager.m */; };
+		3F7F85E91E7FFD8900B7B3A1 /* WRDNSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85DF1E7FFD8900B7B3A1 /* WRDNSRecord.m */; };
+		3F7F85EA1E7FFD8900B7B3A1 /* WRevaluateServerTrust.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85E11E7FFD8900B7B3A1 /* WRevaluateServerTrust.m */; };
+		3F7F85EB1E7FFD8900B7B3A1 /* WRHttpDNSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85E31E7FFD8900B7B3A1 /* WRHttpDNSManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,22 @@
 		3F7F85A91E7FFB9000B7B3A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F7F85AC1E7FFB9000B7B3A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F7F85AE1E7FFB9000B7B3A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7F85D21E7FFD8900B7B3A1 /* WRDNSProviderBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRDNSProviderBase.h; sourceTree = "<group>"; };
+		3F7F85D31E7FFD8900B7B3A1 /* WRDNSProviderBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRDNSProviderBase.m; sourceTree = "<group>"; };
+		3F7F85D41E7FFD8900B7B3A1 /* WRDNSProviderQcloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRDNSProviderQcloud.h; sourceTree = "<group>"; };
+		3F7F85D51E7FFD8900B7B3A1 /* WRDNSProviderQcloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRDNSProviderQcloud.m; sourceTree = "<group>"; };
+		3F7F85D71E7FFD8900B7B3A1 /* WRURLConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRURLConnectionDelegate.h; sourceTree = "<group>"; };
+		3F7F85D81E7FFD8900B7B3A1 /* WRURLConnectionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRURLConnectionDelegate.m; sourceTree = "<group>"; };
+		3F7F85D91E7FFD8900B7B3A1 /* WRURLSessionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRURLSessionDelegate.h; sourceTree = "<group>"; };
+		3F7F85DA1E7FFD8900B7B3A1 /* WRURLSessionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRURLSessionDelegate.m; sourceTree = "<group>"; };
+		3F7F85DC1E7FFD8900B7B3A1 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		3F7F85DD1E7FFD8900B7B3A1 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		3F7F85DE1E7FFD8900B7B3A1 /* WRDNSRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRDNSRecord.h; sourceTree = "<group>"; };
+		3F7F85DF1E7FFD8900B7B3A1 /* WRDNSRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRDNSRecord.m; sourceTree = "<group>"; };
+		3F7F85E01E7FFD8900B7B3A1 /* WRevaluateServerTrust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRevaluateServerTrust.h; sourceTree = "<group>"; };
+		3F7F85E11E7FFD8900B7B3A1 /* WRevaluateServerTrust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRevaluateServerTrust.m; sourceTree = "<group>"; };
+		3F7F85E21E7FFD8900B7B3A1 /* WRHttpDNSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRHttpDNSManager.h; sourceTree = "<group>"; };
+		3F7F85E31E7FFD8900B7B3A1 /* WRHttpDNSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRHttpDNSManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 		3F7F859C1E7FFB9000B7B3A1 /* WRHttpDNSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3F7F85D01E7FFD8900B7B3A1 /* HttpDNS */,
 				3F7F85A01E7FFB9000B7B3A1 /* AppDelegate.h */,
 				3F7F85A11E7FFB9000B7B3A1 /* AppDelegate.m */,
 				3F7F85A31E7FFB9000B7B3A1 /* ViewController.h */,
@@ -77,6 +102,53 @@
 				3F7F859E1E7FFB9000B7B3A1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F7F85D01E7FFD8900B7B3A1 /* HttpDNS */ = {
+			isa = PBXGroup;
+			children = (
+				3F7F85D11E7FFD8900B7B3A1 /* DNSProvider */,
+				3F7F85D61E7FFD8900B7B3A1 /* NetworkDelegate */,
+				3F7F85DB1E7FFD8900B7B3A1 /* NetworkUtil */,
+				3F7F85DE1E7FFD8900B7B3A1 /* WRDNSRecord.h */,
+				3F7F85DF1E7FFD8900B7B3A1 /* WRDNSRecord.m */,
+				3F7F85E01E7FFD8900B7B3A1 /* WRevaluateServerTrust.h */,
+				3F7F85E11E7FFD8900B7B3A1 /* WRevaluateServerTrust.m */,
+				3F7F85E21E7FFD8900B7B3A1 /* WRHttpDNSManager.h */,
+				3F7F85E31E7FFD8900B7B3A1 /* WRHttpDNSManager.m */,
+			);
+			path = HttpDNS;
+			sourceTree = "<group>";
+		};
+		3F7F85D11E7FFD8900B7B3A1 /* DNSProvider */ = {
+			isa = PBXGroup;
+			children = (
+				3F7F85D21E7FFD8900B7B3A1 /* WRDNSProviderBase.h */,
+				3F7F85D31E7FFD8900B7B3A1 /* WRDNSProviderBase.m */,
+				3F7F85D41E7FFD8900B7B3A1 /* WRDNSProviderQcloud.h */,
+				3F7F85D51E7FFD8900B7B3A1 /* WRDNSProviderQcloud.m */,
+			);
+			path = DNSProvider;
+			sourceTree = "<group>";
+		};
+		3F7F85D61E7FFD8900B7B3A1 /* NetworkDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3F7F85D71E7FFD8900B7B3A1 /* WRURLConnectionDelegate.h */,
+				3F7F85D81E7FFD8900B7B3A1 /* WRURLConnectionDelegate.m */,
+				3F7F85D91E7FFD8900B7B3A1 /* WRURLSessionDelegate.h */,
+				3F7F85DA1E7FFD8900B7B3A1 /* WRURLSessionDelegate.m */,
+			);
+			path = NetworkDelegate;
+			sourceTree = "<group>";
+		};
+		3F7F85DB1E7FFD8900B7B3A1 /* NetworkUtil */ = {
+			isa = PBXGroup;
+			children = (
+				3F7F85DC1E7FFD8900B7B3A1 /* AFNetworkReachabilityManager.h */,
+				3F7F85DD1E7FFD8900B7B3A1 /* AFNetworkReachabilityManager.m */,
+			);
+			path = NetworkUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +223,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F7F85A51E7FFB9000B7B3A1 /* ViewController.m in Sources */,
+				3F7F85EB1E7FFD8900B7B3A1 /* WRHttpDNSManager.m in Sources */,
+				3F7F85E71E7FFD8900B7B3A1 /* WRURLSessionDelegate.m in Sources */,
 				3F7F85A21E7FFB9000B7B3A1 /* AppDelegate.m in Sources */,
+				3F7F85E41E7FFD8900B7B3A1 /* WRDNSProviderBase.m in Sources */,
+				3F7F85E91E7FFD8900B7B3A1 /* WRDNSRecord.m in Sources */,
 				3F7F859F1E7FFB9000B7B3A1 /* main.m in Sources */,
+				3F7F85E51E7FFD8900B7B3A1 /* WRDNSProviderQcloud.m in Sources */,
+				3F7F85E81E7FFD8900B7B3A1 /* AFNetworkReachabilityManager.m in Sources */,
+				3F7F85E61E7FFD8900B7B3A1 /* WRURLConnectionDelegate.m in Sources */,
+				3F7F85EA1E7FFD8900B7B3A1 /* WRevaluateServerTrust.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +389,7 @@
 				3F7F85B31E7FFB9000B7B3A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
