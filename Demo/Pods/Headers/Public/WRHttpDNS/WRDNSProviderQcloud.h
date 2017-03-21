@@ -1,1 +1,0 @@
-../../../WRHttpDNS/HttpDNS/DNSProvider/WRDNSProviderQcloud.h

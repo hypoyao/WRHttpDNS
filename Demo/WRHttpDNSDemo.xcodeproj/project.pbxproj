@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F56658A1E813FAC007D4F7F /* WRDNSProviderBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5665771E813FAC007D4F7F /* WRDNSProviderBase.m */; };
+		3F56658B1E813FAC007D4F7F /* WRDNSProviderQcloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5665791E813FAC007D4F7F /* WRDNSProviderQcloud.m */; };
+		3F56658C1E813FAC007D4F7F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3F56657A1E813FAC007D4F7F /* LICENSE */; };
+		3F56658D1E813FAC007D4F7F /* WRURLConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F56657D1E813FAC007D4F7F /* WRURLConnectionDelegate.m */; };
+		3F56658E1E813FAC007D4F7F /* WRURLSessionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F56657F1E813FAC007D4F7F /* WRURLSessionDelegate.m */; };
+		3F56658F1E813FAC007D4F7F /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5665821E813FAC007D4F7F /* AFNetworkReachabilityManager.m */; };
+		3F5665901E813FAC007D4F7F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3F5665831E813FAC007D4F7F /* README.md */; };
+		3F5665911E813FAC007D4F7F /* WRDNSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5665851E813FAC007D4F7F /* WRDNSRecord.m */; };
+		3F5665921E813FAC007D4F7F /* WRevaluateServerTrust.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5665871E813FAC007D4F7F /* WRevaluateServerTrust.m */; };
+		3F5665931E813FAC007D4F7F /* WRHttpDNSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5665891E813FAC007D4F7F /* WRHttpDNSManager.m */; };
 		3F7F859F1E7FFB9000B7B3A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F859E1E7FFB9000B7B3A1 /* main.m */; };
 		3F7F85A21E7FFB9000B7B3A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85A11E7FFB9000B7B3A1 /* AppDelegate.m */; };
 		3F7F85A51E7FFB9000B7B3A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85A41E7FFB9000B7B3A1 /* ViewController.m */; };
@@ -19,6 +29,24 @@
 /* Begin PBXFileReference section */
 		0475C8FDB402B6AB19E3F992 /* Pods-WRHttpDNSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WRHttpDNSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WRHttpDNSDemo/Pods-WRHttpDNSDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		2394FCA84EE4FB0A8E9A98DB /* Pods-WRHttpDNSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WRHttpDNSDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WRHttpDNSDemo/Pods-WRHttpDNSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3F5665761E813FAC007D4F7F /* WRDNSProviderBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRDNSProviderBase.h; sourceTree = "<group>"; };
+		3F5665771E813FAC007D4F7F /* WRDNSProviderBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRDNSProviderBase.m; sourceTree = "<group>"; };
+		3F5665781E813FAC007D4F7F /* WRDNSProviderQcloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRDNSProviderQcloud.h; sourceTree = "<group>"; };
+		3F5665791E813FAC007D4F7F /* WRDNSProviderQcloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRDNSProviderQcloud.m; sourceTree = "<group>"; };
+		3F56657A1E813FAC007D4F7F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3F56657C1E813FAC007D4F7F /* WRURLConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRURLConnectionDelegate.h; sourceTree = "<group>"; };
+		3F56657D1E813FAC007D4F7F /* WRURLConnectionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRURLConnectionDelegate.m; sourceTree = "<group>"; };
+		3F56657E1E813FAC007D4F7F /* WRURLSessionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRURLSessionDelegate.h; sourceTree = "<group>"; };
+		3F56657F1E813FAC007D4F7F /* WRURLSessionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRURLSessionDelegate.m; sourceTree = "<group>"; };
+		3F5665811E813FAC007D4F7F /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		3F5665821E813FAC007D4F7F /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		3F5665831E813FAC007D4F7F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F5665841E813FAC007D4F7F /* WRDNSRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRDNSRecord.h; sourceTree = "<group>"; };
+		3F5665851E813FAC007D4F7F /* WRDNSRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRDNSRecord.m; sourceTree = "<group>"; };
+		3F5665861E813FAC007D4F7F /* WRevaluateServerTrust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRevaluateServerTrust.h; sourceTree = "<group>"; };
+		3F5665871E813FAC007D4F7F /* WRevaluateServerTrust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRevaluateServerTrust.m; sourceTree = "<group>"; };
+		3F5665881E813FAC007D4F7F /* WRHttpDNSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRHttpDNSManager.h; sourceTree = "<group>"; };
+		3F5665891E813FAC007D4F7F /* WRHttpDNSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRHttpDNSManager.m; sourceTree = "<group>"; };
 		3F7F859A1E7FFB9000B7B3A1 /* WRHttpDNSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WRHttpDNSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7F859E1E7FFB9000B7B3A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F7F85A01E7FFB9000B7B3A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,6 +80,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3F5665741E813FAC007D4F7F /* HttpDNS */ = {
+			isa = PBXGroup;
+			children = (
+				3F5665751E813FAC007D4F7F /* DNSProvider */,
+				3F56657A1E813FAC007D4F7F /* LICENSE */,
+				3F56657B1E813FAC007D4F7F /* NetworkDelegate */,
+				3F5665801E813FAC007D4F7F /* NetworkUtil */,
+				3F5665831E813FAC007D4F7F /* README.md */,
+				3F5665841E813FAC007D4F7F /* WRDNSRecord.h */,
+				3F5665851E813FAC007D4F7F /* WRDNSRecord.m */,
+				3F5665861E813FAC007D4F7F /* WRevaluateServerTrust.h */,
+				3F5665871E813FAC007D4F7F /* WRevaluateServerTrust.m */,
+				3F5665881E813FAC007D4F7F /* WRHttpDNSManager.h */,
+				3F5665891E813FAC007D4F7F /* WRHttpDNSManager.m */,
+			);
+			path = HttpDNS;
+			sourceTree = "<group>";
+		};
+		3F5665751E813FAC007D4F7F /* DNSProvider */ = {
+			isa = PBXGroup;
+			children = (
+				3F5665761E813FAC007D4F7F /* WRDNSProviderBase.h */,
+				3F5665771E813FAC007D4F7F /* WRDNSProviderBase.m */,
+				3F5665781E813FAC007D4F7F /* WRDNSProviderQcloud.h */,
+				3F5665791E813FAC007D4F7F /* WRDNSProviderQcloud.m */,
+			);
+			path = DNSProvider;
+			sourceTree = "<group>";
+		};
+		3F56657B1E813FAC007D4F7F /* NetworkDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3F56657C1E813FAC007D4F7F /* WRURLConnectionDelegate.h */,
+				3F56657D1E813FAC007D4F7F /* WRURLConnectionDelegate.m */,
+				3F56657E1E813FAC007D4F7F /* WRURLSessionDelegate.h */,
+				3F56657F1E813FAC007D4F7F /* WRURLSessionDelegate.m */,
+			);
+			path = NetworkDelegate;
+			sourceTree = "<group>";
+		};
+		3F5665801E813FAC007D4F7F /* NetworkUtil */ = {
+			isa = PBXGroup;
+			children = (
+				3F5665811E813FAC007D4F7F /* AFNetworkReachabilityManager.h */,
+				3F5665821E813FAC007D4F7F /* AFNetworkReachabilityManager.m */,
+			);
+			path = NetworkUtil;
+			sourceTree = "<group>";
+		};
 		3F7F85911E7FFB9000B7B3A1 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +150,7 @@
 		3F7F859C1E7FFB9000B7B3A1 /* WRHttpDNSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3F5665741E813FAC007D4F7F /* HttpDNS */,
 				3F7F85A01E7FFB9000B7B3A1 /* AppDelegate.h */,
 				3F7F85A11E7FFB9000B7B3A1 /* AppDelegate.m */,
 				3F7F85A31E7FFB9000B7B3A1 /* ViewController.h */,
@@ -166,6 +244,7 @@
 			files = (
 				3F7F85AD1E7FFB9000B7B3A1 /* LaunchScreen.storyboard in Resources */,
 				3F7F85AA1E7FFB9000B7B3A1 /* Assets.xcassets in Resources */,
+				3F56658C1E813FAC007D4F7F /* LICENSE in Resources */,
 				3F7F85A81E7FFB9000B7B3A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,8 +305,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F7F85A51E7FFB9000B7B3A1 /* ViewController.m in Sources */,
+				3F56658E1E813FAC007D4F7F /* WRURLSessionDelegate.m in Sources */,
+				3F5665931E813FAC007D4F7F /* WRHttpDNSManager.m in Sources */,
+				3F5665921E813FAC007D4F7F /* WRevaluateServerTrust.m in Sources */,
 				3F7F85A21E7FFB9000B7B3A1 /* AppDelegate.m in Sources */,
+				3F5665911E813FAC007D4F7F /* WRDNSRecord.m in Sources */,
+				3F56658A1E813FAC007D4F7F /* WRDNSProviderBase.m in Sources */,
 				3F7F859F1E7FFB9000B7B3A1 /* main.m in Sources */,
+				3F56658B1E813FAC007D4F7F /* WRDNSProviderQcloud.m in Sources */,
+				3F5665901E813FAC007D4F7F /* README.md in Sources */,
+				3F56658F1E813FAC007D4F7F /* AFNetworkReachabilityManager.m in Sources */,
+				3F56658D1E813FAC007D4F7F /* WRURLConnectionDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -35,11 +35,9 @@ willSendRequestForAuthenticationChallenge:(NSURLAuthenticationChallenge *)challe
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
     //mark HttpDNS cache Abandoned
-    if (error && [[WRHttpDNSManager shareInstance] isHostUnreachableWithError:error]) {
-        NSURLComponents *urlComponents = [[NSURLComponents alloc] initWithURL:connection.originalRequest.URL resolvingAgainstBaseURL:YES];
-        NSString *domain = urlComponents.host;
-        [[WRHttpDNSManager shareInstance] markDNSCacheAbandonedWithDomain:domain];
-    }
+    NSURLComponents *urlComponents = [[NSURLComponents alloc] initWithURL:connection.originalRequest.URL resolvingAgainstBaseURL:YES];
+    NSString *domain = urlComponents.host;
+    [[WRHttpDNSManager shareInstance] checkHttpDNSError:error domain:domain];
 }
 
 @end
