@@ -4,8 +4,10 @@
 - Provide GoogleDNS service default, you can add other custom DNS service easily.
 
 ## Installation
+### As a [CocoaPod](http://cocoapods.org/)
+Just add this to your Podfile
 ```bash
-$ pod install
+pod 'MLeaksFinder'
 ```
  or download all files under WRHttpDNS directory.
 
