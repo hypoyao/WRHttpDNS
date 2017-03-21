@@ -32,11 +32,9 @@
     _requestUrlView = [[UITextView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-300)/2, 20, 300,50)];
     _requestUrlView.text = @"http://i.weread.qq.com/book/info?bookId=100014";
     [_requestUrlView setFont:[UIFont fontWithName:@"PingFangSC-Medium" size:15]];
-//    [_requestUrlView setBackgroundColor:[UIColor grayColor]];
     [self.view addSubview:_requestUrlView];
     
     _responseView = [[UITextView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-300)/2, 100, 300, 500)];
-//    [_responseView setBackgroundColor:[UIColor grayColor]];
     [_requestUrlView setFont:[UIFont fontWithName:@"PingFangSC-Medium" size:15]];
     [self.view addSubview:_responseView];
     
