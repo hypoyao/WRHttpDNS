@@ -7,7 +7,7 @@
 ### As a [CocoaPod](http://cocoapods.org/)
 Just add this to your Podfile
 ```bash
-pod 'MLeaksFinder'
+pod 'WRHttpDNS'
 ```
  ### Other approaches
  Download all files under WRHttpDNS directory.
@@ -21,7 +21,7 @@ If network responsed an error, you should check the error.
 ```objc
 [[WRHttpDNSManager shareInstance] checkHttpDNSError:error domain:domain]
 ```
-AS https connection, you should implement some delegate as `WRURLSessionDelegate` or `WRURLConnecitonDelegate`.
+As https connection, you should implement some delegate as `WRURLSessionDelegate` or `WRURLConnecitonDelegate`.
 
 ## License
 WRHttpDNS is released under the MIT license. See LICENSE for details.
