@@ -21,6 +21,7 @@
 		3F7F85E91E7FFD8900B7B3A1 /* WRDNSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85DF1E7FFD8900B7B3A1 /* WRDNSRecord.m */; };
 		3F7F85EA1E7FFD8900B7B3A1 /* WRevaluateServerTrust.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85E11E7FFD8900B7B3A1 /* WRevaluateServerTrust.m */; };
 		3F7F85EB1E7FFD8900B7B3A1 /* WRHttpDNSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85E31E7FFD8900B7B3A1 /* WRHttpDNSManager.m */; };
+		3F7F85EE1E80BFD600B7B3A1 /* WRDNSProviderGoogle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85ED1E80BFD600B7B3A1 /* WRDNSProviderGoogle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,8 @@
 		3F7F85E11E7FFD8900B7B3A1 /* WRevaluateServerTrust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRevaluateServerTrust.m; sourceTree = "<group>"; };
 		3F7F85E21E7FFD8900B7B3A1 /* WRHttpDNSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRHttpDNSManager.h; sourceTree = "<group>"; };
 		3F7F85E31E7FFD8900B7B3A1 /* WRHttpDNSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRHttpDNSManager.m; sourceTree = "<group>"; };
+		3F7F85EC1E80BFD600B7B3A1 /* WRDNSProviderGoogle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRDNSProviderGoogle.h; sourceTree = "<group>"; };
+		3F7F85ED1E80BFD600B7B3A1 /* WRDNSProviderGoogle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRDNSProviderGoogle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				3F7F85D11E7FFD8900B7B3A1 /* DNSProvider */,
-				3F7F85D61E7FFD8900B7B3A1 /* NetworkDelegate */,
-				3F7F85DB1E7FFD8900B7B3A1 /* NetworkUtil */,
 				3F7F85DE1E7FFD8900B7B3A1 /* WRDNSRecord.h */,
 				3F7F85DF1E7FFD8900B7B3A1 /* WRDNSRecord.m */,
 				3F7F85E01E7FFD8900B7B3A1 /* WRevaluateServerTrust.h */,
@@ -127,6 +128,10 @@
 				3F7F85D31E7FFD8900B7B3A1 /* WRDNSProviderBase.m */,
 				3F7F85D41E7FFD8900B7B3A1 /* WRDNSProviderQcloud.h */,
 				3F7F85D51E7FFD8900B7B3A1 /* WRDNSProviderQcloud.m */,
+				3F7F85EC1E80BFD600B7B3A1 /* WRDNSProviderGoogle.h */,
+				3F7F85ED1E80BFD600B7B3A1 /* WRDNSProviderGoogle.m */,
+				3F7F85DB1E7FFD8900B7B3A1 /* NetworkUtil */,
+				3F7F85D61E7FFD8900B7B3A1 /* NetworkDelegate */,
 			);
 			path = DNSProvider;
 			sourceTree = "<group>";
@@ -139,7 +144,8 @@
 				3F7F85D91E7FFD8900B7B3A1 /* WRURLSessionDelegate.h */,
 				3F7F85DA1E7FFD8900B7B3A1 /* WRURLSessionDelegate.m */,
 			);
-			path = NetworkDelegate;
+			name = NetworkDelegate;
+			path = ../NetworkDelegate;
 			sourceTree = "<group>";
 		};
 		3F7F85DB1E7FFD8900B7B3A1 /* NetworkUtil */ = {
@@ -148,7 +154,8 @@
 				3F7F85DC1E7FFD8900B7B3A1 /* AFNetworkReachabilityManager.h */,
 				3F7F85DD1E7FFD8900B7B3A1 /* AFNetworkReachabilityManager.m */,
 			);
-			path = NetworkUtil;
+			name = NetworkUtil;
+			path = ../NetworkUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +235,7 @@
 				3F7F85A21E7FFB9000B7B3A1 /* AppDelegate.m in Sources */,
 				3F7F85E41E7FFD8900B7B3A1 /* WRDNSProviderBase.m in Sources */,
 				3F7F85E91E7FFD8900B7B3A1 /* WRDNSRecord.m in Sources */,
+				3F7F85EE1E80BFD600B7B3A1 /* WRDNSProviderGoogle.m in Sources */,
 				3F7F859F1E7FFB9000B7B3A1 /* main.m in Sources */,
 				3F7F85E51E7FFD8900B7B3A1 /* WRDNSProviderQcloud.m in Sources */,
 				3F7F85E81E7FFD8900B7B3A1 /* AFNetworkReachabilityManager.m in Sources */,
