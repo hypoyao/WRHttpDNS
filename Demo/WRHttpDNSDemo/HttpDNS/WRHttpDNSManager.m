@@ -41,7 +41,7 @@ static dispatch_queue_t requestIPQueue() {
 - (instancetype)init {
     if (self = [super init]) {
         _DNSCache = [[NSMutableDictionary alloc] init];
-        [self userQcloudDNSProvider];
+        [self userGoogleDNSProvider];
         [[AFNetworkReachabilityManager sharedManager] startMonitoring];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleNetworkChanged) name:AFNetworkingReachabilityDidChangeNotification object:nil];
     }
