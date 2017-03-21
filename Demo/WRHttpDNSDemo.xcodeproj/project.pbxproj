@@ -17,6 +17,7 @@
 		3F5665911E813FAC007D4F7F /* WRDNSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5665851E813FAC007D4F7F /* WRDNSRecord.m */; };
 		3F5665921E813FAC007D4F7F /* WRevaluateServerTrust.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5665871E813FAC007D4F7F /* WRevaluateServerTrust.m */; };
 		3F5665931E813FAC007D4F7F /* WRHttpDNSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5665891E813FAC007D4F7F /* WRHttpDNSManager.m */; };
+		3F5665961E8145B8007D4F7F /* WRDNSProviderGoogle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5665951E8145B8007D4F7F /* WRDNSProviderGoogle.m */; };
 		3F7F859F1E7FFB9000B7B3A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F859E1E7FFB9000B7B3A1 /* main.m */; };
 		3F7F85A21E7FFB9000B7B3A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85A11E7FFB9000B7B3A1 /* AppDelegate.m */; };
 		3F7F85A51E7FFB9000B7B3A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F85A41E7FFB9000B7B3A1 /* ViewController.m */; };
@@ -47,6 +48,8 @@
 		3F5665871E813FAC007D4F7F /* WRevaluateServerTrust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRevaluateServerTrust.m; sourceTree = "<group>"; };
 		3F5665881E813FAC007D4F7F /* WRHttpDNSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRHttpDNSManager.h; sourceTree = "<group>"; };
 		3F5665891E813FAC007D4F7F /* WRHttpDNSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRHttpDNSManager.m; sourceTree = "<group>"; };
+		3F5665941E8145B8007D4F7F /* WRDNSProviderGoogle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRDNSProviderGoogle.h; sourceTree = "<group>"; };
+		3F5665951E8145B8007D4F7F /* WRDNSProviderGoogle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRDNSProviderGoogle.m; sourceTree = "<group>"; };
 		3F7F859A1E7FFB9000B7B3A1 /* WRHttpDNSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WRHttpDNSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7F859E1E7FFB9000B7B3A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F7F85A01E7FFB9000B7B3A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				3F5665771E813FAC007D4F7F /* WRDNSProviderBase.m */,
 				3F5665781E813FAC007D4F7F /* WRDNSProviderQcloud.h */,
 				3F5665791E813FAC007D4F7F /* WRDNSProviderQcloud.m */,
+				3F5665941E8145B8007D4F7F /* WRDNSProviderGoogle.h */,
+				3F5665951E8145B8007D4F7F /* WRDNSProviderGoogle.m */,
 			);
 			path = DNSProvider;
 			sourceTree = "<group>";
@@ -305,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F7F85A51E7FFB9000B7B3A1 /* ViewController.m in Sources */,
+				3F5665961E8145B8007D4F7F /* WRDNSProviderGoogle.m in Sources */,
 				3F56658E1E813FAC007D4F7F /* WRURLSessionDelegate.m in Sources */,
 				3F5665931E813FAC007D4F7F /* WRHttpDNSManager.m in Sources */,
 				3F5665921E813FAC007D4F7F /* WRevaluateServerTrust.m in Sources */,

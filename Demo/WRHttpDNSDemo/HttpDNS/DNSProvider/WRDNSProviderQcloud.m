@@ -8,17 +8,8 @@
 
 #import "WRDNSProviderQcloud.h"
 
-#if HttpDNS_HTTPS
-#define httpDNSIP @"182.254.116.120"
-#define httpOrHttps @"https"
-#else
-#define httpDNSIP @"182.254.116.117"
-#define httpOrHttps @"http"
-#endif
-
-#define httpDNSDomain @"httpdns.qq.com"
-const static NSString *kHTTPDNS_QCLOUD_SERVER_ADDRESS = @"119.29.29.29";
-const static NSString *kHTTPDNS_HTTPS_QCLOUD_SERVER_ADDRESS = @"119.29.29.29";
+const static NSString *kHTTPDNS_QCLOUD_SERVER_ADDRESS = @"182.254.116.120";
+const static NSString *kHTTPDNS_HTTPS_QCLOUD_SERVER_ADDRESS = @"182.254.116.117";
 
 @implementation WRDNSProviderQcloud
 

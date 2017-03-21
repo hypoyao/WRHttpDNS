@@ -10,6 +10,7 @@
 #import "WRDNSRecord.h"
 #import "WRDNSProviderQcloud.h"
 #import "AFNetworkReachabilityManager.h"
+#import "WRDNSProviderGoogle.h"
 
 static dispatch_queue_t requestIPQueue() {
     static dispatch_queue_t httpDNS_requestIP_queue;
@@ -49,6 +50,10 @@ static dispatch_queue_t requestIPQueue() {
 
 - (void)userQcloudDNSProvider {
     _dnsProvider = [[WRDNSProviderQcloud alloc] init];
+}
+
+- (void)userGoogleDNSProvider {
+    _dnsProvider = [[WRDNSProviderGoogle alloc] init];
 }
 
 - (BOOL)shouldUseHttpDNSWithDomain:(NSString *)domain {
@@ -115,7 +120,7 @@ static dispatch_queue_t requestIPQueue() {
         return;
     }
 
-    [_dnsProvider requsetRecord:domain isHttps:NO callback:^(WRDNSRecord *record) {
+    [_dnsProvider requsetRecord:domain isHttps:YES callback:^(WRDNSRecord *record) {
         [self setDNSCacheWithIP:record domain:domain];
     }];
 }

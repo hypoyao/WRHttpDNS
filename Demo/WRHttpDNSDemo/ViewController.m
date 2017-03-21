@@ -32,17 +32,17 @@
     _requestUrlView = [[UITextView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-300)/2, 20, 300,50)];
     _requestUrlView.text = @"http://i.weread.qq.com/book/info?bookId=100014";
     [_requestUrlView setFont:[UIFont fontWithName:@"PingFangSC-Medium" size:15]];
-    [_requestUrlView setBackgroundColor:[UIColor grayColor]];
+//    [_requestUrlView setBackgroundColor:[UIColor grayColor]];
     [self.view addSubview:_requestUrlView];
     
-    _responseView = [[UITextView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-300)/2, 100, 300, 300)];
-    [_responseView setBackgroundColor:[UIColor grayColor]];
+    _responseView = [[UITextView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-300)/2, 100, 300, 500)];
+//    [_responseView setBackgroundColor:[UIColor grayColor]];
     [_requestUrlView setFont:[UIFont fontWithName:@"PingFangSC-Medium" size:15]];
     [self.view addSubview:_responseView];
     
-    _sendRequestButton = [[UIButton alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-300)/2, 420, 300, 30)];
+    _sendRequestButton = [[UIButton alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-300)/2, 520, 300, 30)];
     [_sendRequestButton setTitle:@"send request" forState:UIControlStateNormal];
-    [_sendRequestButton setBackgroundColor:[UIColor greenColor]];
+    [_sendRequestButton setBackgroundColor:[UIColor orangeColor]];
     [_sendRequestButton addTarget:self action:@selector(handleRequestButtonClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_sendRequestButton];
 }
@@ -79,7 +79,7 @@
 - (void)updateResponseViewWithData:(NSData *)data {
     NSString *responseString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     dispatch_async(dispatch_get_main_queue(), ^{
-        _responseView.text = [NSString stringWithFormat:@"response content:%@",responseString];
+        _responseView.text = [NSString stringWithFormat:@"response content:\n%@",responseString];
     });
     NSLog(@"responseString:%@",responseString);
 }
