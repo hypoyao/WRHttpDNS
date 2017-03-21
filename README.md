@@ -10,7 +10,7 @@ Just add this to your Podfile
 pod 'WRHttpDNS'
 ```
  ### Other approaches
- Download all files under WRHttpDNS directory.
+ Download all files under `WRHttpDNS` directory.
  
  ## Usage
  Support NSURLSession and NSURLConnection，call the method before a real request.
