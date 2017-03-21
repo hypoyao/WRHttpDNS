@@ -21,7 +21,7 @@ If network responsed an error, you should check the error.
 ```objc
 [[WRHttpDNSManager shareInstance] checkHttpDNSError:error domain:domain]
 ```
-As https connection, you should implement some delegate as `WRURLSessionDelegate` or `WRURLConnecitonDelegate`.
+As https connection, you should implement some delegate like `WRURLSessionDelegate` or `WRURLConnecitonDelegate`.
 
 ## License
 WRHttpDNS is released under the MIT license. See LICENSE for details.
