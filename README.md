@@ -7,7 +7,7 @@
 ### As a [CocoaPod](http://cocoapods.org/)
 Just add this to your Podfile
 ```bash
-pod 'MLeaksFinder'
+pod 'WRHttpDNS'
 ```
  ### Other approaches
  Download all files under WRHttpDNS directory.
