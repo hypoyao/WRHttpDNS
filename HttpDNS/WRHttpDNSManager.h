@@ -16,4 +16,5 @@
 - (NSString *)getIPWithDomain:(NSString *)domain;
 - (void)markDNSCacheAbandonedWithDomain:(NSString *)domain;
 - (BOOL)isHostUnreachableWithError:(NSError *)error;
+- (void)checkHttpDNSError:(NSError *)error domain:(NSString *)domain;
 @end

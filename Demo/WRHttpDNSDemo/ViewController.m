@@ -85,7 +85,7 @@
 }
 
 - (void)checkHttpDNSError:(NSError *)error request:(NSURLRequest *)request{
-    if (error && [[WRHttpDNSManager shareInstance] isHostUnreachableWithError:error]) {
+    if ([[WRHttpDNSManager shareInstance] isHostUnreachableWithError:error]) {
         NSURLComponents *urlComponents = [[NSURLComponents alloc] initWithURL:request.URL resolvingAgainstBaseURL:YES];
         NSString *domain = urlComponents.host;
         [[WRHttpDNSManager shareInstance] markDNSCacheAbandonedWithDomain:domain];

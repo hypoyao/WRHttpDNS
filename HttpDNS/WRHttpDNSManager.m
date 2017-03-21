@@ -141,6 +141,12 @@ static dispatch_queue_t requestIPQueue() {
     }
 }
 
+- (void)checkHttpDNSError:(NSError *)error domain:(NSString *)domain {
+    if ([[WRHttpDNSManager shareInstance] isHostUnreachableWithError:error]) {
+        [[WRHttpDNSManager shareInstance] markDNSCacheAbandonedWithDomain:domain];
+    }
+}
+
 - (WRDNSRecord *)readDNSInfoFromCacheWithDomain:(NSString *)domain {
     @synchronized (_DNSCache) {
         WRDNSRecord *dnsInfo = _DNSCache[domain];
