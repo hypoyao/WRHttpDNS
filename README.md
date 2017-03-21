@@ -3,7 +3,7 @@
 - High availability, request DNS info asynchronously, abandon overdue or unusable DNS Cache automatically, change DNS cache as network changed.
 - Provide GoogleDNS service default, you can add other custom DNS service easily.
 
-## install
+## Installation
 ```bash
 $ pod install
 ```
