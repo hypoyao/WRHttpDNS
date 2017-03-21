@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DFC2C9F5EF5E1C620DC0056D3F184D /* Pods-WRHttpDNSDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B2555EC67B26EA07EAA8FE965F5E5 /* Pods-WRHttpDNSDemo-dummy.m */; };
+		041E45270DB3E0EBAF26B84AEE1F429B /* WRDNSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4249D7F2BEDA3A7BA5AF9E9CA006A3 /* WRDNSRecord.m */; };
+		0A079EAE70D22DB6D76DBE79F607D702 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0B4EE50592CF6B6F5336C26C6A688BC1 /* WRDNSProviderBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D4944CED463673EB02B0315ACC03CADF /* WRDNSProviderBase.m */; };
+		1D6F58BEC9D7B6B93D2200338F2221E3 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 080618CE36AFC5E79915D94400D565EF /* LICENSE */; };
+		268A61409030B408195D3435A36DCC5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		37AE500202B27176F05B74346DDDC1AC /* WRURLSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FA93619686000344BC8A135A93CE711C /* WRURLSessionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C96CCEEBCC5A27630BA7C1FA08B4CB4 /* WRevaluateServerTrust.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B82F2BAE20D1B7B6258AC5B8FD8ED5C /* WRevaluateServerTrust.m */; };
+		561D8EACE0F3B989F812CB73AF33316D /* WRHttpDNSManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BD97E1CFC18F65D09215C28E52A4A2AE /* WRHttpDNSManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BBDF106456916ECD10A455E35488094 /* WRHttpDNSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB7F9FC0F36E0FDB69CB02034CBC942 /* WRHttpDNSManager.m */; };
+		72212991C1A17DEE294C684399E9A729 /* WRDNSRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B32A214A091CB9557B8E70FD021805 /* WRDNSRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		876348BF39437AD9F670D3646518AC93 /* WRDNSProviderQcloud.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1B5A5AC431F1EE8D783E88299C30C9 /* WRDNSProviderQcloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		893D6A6FF17EF279E29107691823C77C /* WRURLConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2B66EF72FA1FB81A24D8F1341C4902 /* WRURLConnectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E0249F4C3C233BD63E4D098EF0A3C34 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4C15614A8DBD40001F638DB7DC9B42 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FF5CA1F29C13D409DD175EFA94ABF4C /* WRDNSProviderQcloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A519269A20DF4105A82BB2786BEC26C /* WRDNSProviderQcloud.m */; };
+		B3DE40992BD90A2E259ED29F34428A1A /* WRURLConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 617B2B6DE6F991ECC00E1F97727A3BFA /* WRURLConnectionDelegate.m */; };
+		E0BEB260BDF6FF74224CE63E05694A74 /* WRHttpDNS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D848BB2A91551CC0B48F22C16FADAD2B /* WRHttpDNS-dummy.m */; };
+		EA32EBA1BCEBA0D5FB929BAED4CB075D /* WRevaluateServerTrust.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB334121F22C0201EAB2DA2DF87259F /* WRevaluateServerTrust.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAC26FA9CD33D4B7885ACAF0122B11E5 /* WRURLSessionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC2A54A292E43C9590B371928B71E8 /* WRURLSessionDelegate.m */; };
+		EDA7B1F5C9AB965382ED17D383F03480 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9B316E8A07C244512FD50AA907B1AF /* AFNetworkReachabilityManager.m */; };
+		F2FF443A16CB0D6ED73C34A0DC7AF7AE /* WRDNSProviderBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 60ABDFBF602C8DAE99619A333F37A384 /* WRDNSProviderBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD8686A568BFEF0F585835339AC26C89 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 664D6A0A1F97B64C10E323146ED04FF6 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49F63BE0C386EEF892E8C87511D33A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43862F437157F5EE79FBD6CA53746C3C;
+			remoteInfo = WRHttpDNS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080618CE36AFC5E79915D94400D565EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = HttpDNS/LICENSE; sourceTree = "<group>"; };
+		0BB7F9FC0F36E0FDB69CB02034CBC942 /* WRHttpDNSManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRHttpDNSManager.m; path = HttpDNS/WRHttpDNSManager.m; sourceTree = "<group>"; };
+		0C5B2555EC67B26EA07EAA8FE965F5E5 /* Pods-WRHttpDNSDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WRHttpDNSDemo-dummy.m"; sourceTree = "<group>"; };
+		0DB334121F22C0201EAB2DA2DF87259F /* WRevaluateServerTrust.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRevaluateServerTrust.h; path = HttpDNS/WRevaluateServerTrust.h; sourceTree = "<group>"; };
+		165FF92996ABD242DCFAE0E1C2D71FD6 /* libWRHttpDNS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWRHttpDNS.a; path = libWRHttpDNS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		28025B0EF6D949AEE5287251DBE5CADA /* Pods-WRHttpDNSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRHttpDNSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2E4C15614A8DBD40001F638DB7DC9B42 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = HttpDNS/NetworkUtil/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		37B32A214A091CB9557B8E70FD021805 /* WRDNSRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRDNSRecord.h; path = HttpDNS/WRDNSRecord.h; sourceTree = "<group>"; };
+		3B82F2BAE20D1B7B6258AC5B8FD8ED5C /* WRevaluateServerTrust.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRevaluateServerTrust.m; path = HttpDNS/WRevaluateServerTrust.m; sourceTree = "<group>"; };
+		4B9B316E8A07C244512FD50AA907B1AF /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = HttpDNS/NetworkUtil/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4F087F2B931A352CD2EE0DAC1AB860A4 /* Pods-WRHttpDNSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRHttpDNSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		60ABDFBF602C8DAE99619A333F37A384 /* WRDNSProviderBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRDNSProviderBase.h; path = HttpDNS/DNSProvider/WRDNSProviderBase.h; sourceTree = "<group>"; };
+		617B2B6DE6F991ECC00E1F97727A3BFA /* WRURLConnectionDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRURLConnectionDelegate.m; path = HttpDNS/NetworkDelegate/WRURLConnectionDelegate.m; sourceTree = "<group>"; };
+		664D6A0A1F97B64C10E323146ED04FF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = HttpDNS/README.md; sourceTree = "<group>"; };
+		69D6A8FF4623BC2BCB7D851EB7376189 /* Pods-WRHttpDNSDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WRHttpDNSDemo-frameworks.sh"; sourceTree = "<group>"; };
+		7A519269A20DF4105A82BB2786BEC26C /* WRDNSProviderQcloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRDNSProviderQcloud.m; path = HttpDNS/DNSProvider/WRDNSProviderQcloud.m; sourceTree = "<group>"; };
+		819ACEA9A40A7473AF96D30180205648 /* libPods-WRHttpDNSDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WRHttpDNSDemo.a"; path = "libPods-WRHttpDNSDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C5F596AA439438D6D40DE7BA71F8CC /* WRHttpDNS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WRHttpDNS.xcconfig; sourceTree = "<group>"; };
+		853A04A35BCAC9C5BA2ABAF206D10761 /* Pods-WRHttpDNSDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WRHttpDNSDemo-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CBC2A54A292E43C9590B371928B71E8 /* WRURLSessionDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRURLSessionDelegate.m; path = HttpDNS/NetworkDelegate/WRURLSessionDelegate.m; sourceTree = "<group>"; };
+		AB2B66EF72FA1FB81A24D8F1341C4902 /* WRURLConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRURLConnectionDelegate.h; path = HttpDNS/NetworkDelegate/WRURLConnectionDelegate.h; sourceTree = "<group>"; };
+		B23E816668CCC6ED1F03DBCD55020736 /* Pods-WRHttpDNSDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WRHttpDNSDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD97E1CFC18F65D09215C28E52A4A2AE /* WRHttpDNSManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRHttpDNSManager.h; path = HttpDNS/WRHttpDNSManager.h; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1D672D746484CCBE79700451DAB7FD9 /* Pods-WRHttpDNSDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRHttpDNSDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4944CED463673EB02B0315ACC03CADF /* WRDNSProviderBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRDNSProviderBase.m; path = HttpDNS/DNSProvider/WRDNSProviderBase.m; sourceTree = "<group>"; };
+		D848BB2A91551CC0B48F22C16FADAD2B /* WRHttpDNS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WRHttpDNS-dummy.m"; sourceTree = "<group>"; };
+		DC4249D7F2BEDA3A7BA5AF9E9CA006A3 /* WRDNSRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRDNSRecord.m; path = HttpDNS/WRDNSRecord.m; sourceTree = "<group>"; };
+		E344DDD3D6C1D88135ADBF4E228752EE /* WRHttpDNS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WRHttpDNS-prefix.pch"; sourceTree = "<group>"; };
+		FA93619686000344BC8A135A93CE711C /* WRURLSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRURLSessionDelegate.h; path = HttpDNS/NetworkDelegate/WRURLSessionDelegate.h; sourceTree = "<group>"; };
+		FD1B5A5AC431F1EE8D783E88299C30C9 /* WRDNSProviderQcloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRDNSProviderQcloud.h; path = HttpDNS/DNSProvider/WRDNSProviderQcloud.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8856325823CA4EB473FBBB559D228DA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268A61409030B408195D3435A36DCC5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D022A74D6B7E732A8933755643106560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A079EAE70D22DB6D76DBE79F607D702 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A5F3C398646D0432ADD41EC18A97F2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCB0A5965D3D68E68E95438E1FB28111 /* WRHttpDNS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5391FE4C9B87D9FC798A98A3E8F78B70 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A874542334D99B2E7790C92812D8D3AF /* Pods-WRHttpDNSDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6745A4B53A19F6EA38DD2BE66DA36182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				819ACEA9A40A7473AF96D30180205648 /* libPods-WRHttpDNSDemo.a */,
+				165FF92996ABD242DCFAE0E1C2D71FD6 /* libWRHttpDNS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2A5F3C398646D0432ADD41EC18A97F2F /* Pods */,
+				6745A4B53A19F6EA38DD2BE66DA36182 /* Products */,
+				5391FE4C9B87D9FC798A98A3E8F78B70 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A874542334D99B2E7790C92812D8D3AF /* Pods-WRHttpDNSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B23E816668CCC6ED1F03DBCD55020736 /* Pods-WRHttpDNSDemo-acknowledgements.markdown */,
+				D1D672D746484CCBE79700451DAB7FD9 /* Pods-WRHttpDNSDemo-acknowledgements.plist */,
+				0C5B2555EC67B26EA07EAA8FE965F5E5 /* Pods-WRHttpDNSDemo-dummy.m */,
+				69D6A8FF4623BC2BCB7D851EB7376189 /* Pods-WRHttpDNSDemo-frameworks.sh */,
+				853A04A35BCAC9C5BA2ABAF206D10761 /* Pods-WRHttpDNSDemo-resources.sh */,
+				4F087F2B931A352CD2EE0DAC1AB860A4 /* Pods-WRHttpDNSDemo.debug.xcconfig */,
+				28025B0EF6D949AEE5287251DBE5CADA /* Pods-WRHttpDNSDemo.release.xcconfig */,
+			);
+			name = "Pods-WRHttpDNSDemo";
+			path = "Target Support Files/Pods-WRHttpDNSDemo";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC53EA56BAAD413AEF70B836C0E5615C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C5F596AA439438D6D40DE7BA71F8CC /* WRHttpDNS.xcconfig */,
+				D848BB2A91551CC0B48F22C16FADAD2B /* WRHttpDNS-dummy.m */,
+				E344DDD3D6C1D88135ADBF4E228752EE /* WRHttpDNS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WRHttpDNS";
+			sourceTree = "<group>";
+		};
+		BCB0A5965D3D68E68E95438E1FB28111 /* WRHttpDNS */ = {
+			isa = PBXGroup;
+			children = (
+				2E4C15614A8DBD40001F638DB7DC9B42 /* AFNetworkReachabilityManager.h */,
+				4B9B316E8A07C244512FD50AA907B1AF /* AFNetworkReachabilityManager.m */,
+				080618CE36AFC5E79915D94400D565EF /* LICENSE */,
+				664D6A0A1F97B64C10E323146ED04FF6 /* README.md */,
+				60ABDFBF602C8DAE99619A333F37A384 /* WRDNSProviderBase.h */,
+				D4944CED463673EB02B0315ACC03CADF /* WRDNSProviderBase.m */,
+				FD1B5A5AC431F1EE8D783E88299C30C9 /* WRDNSProviderQcloud.h */,
+				7A519269A20DF4105A82BB2786BEC26C /* WRDNSProviderQcloud.m */,
+				37B32A214A091CB9557B8E70FD021805 /* WRDNSRecord.h */,
+				DC4249D7F2BEDA3A7BA5AF9E9CA006A3 /* WRDNSRecord.m */,
+				0DB334121F22C0201EAB2DA2DF87259F /* WRevaluateServerTrust.h */,
+				3B82F2BAE20D1B7B6258AC5B8FD8ED5C /* WRevaluateServerTrust.m */,
+				BD97E1CFC18F65D09215C28E52A4A2AE /* WRHttpDNSManager.h */,
+				0BB7F9FC0F36E0FDB69CB02034CBC942 /* WRHttpDNSManager.m */,
+				AB2B66EF72FA1FB81A24D8F1341C4902 /* WRURLConnectionDelegate.h */,
+				617B2B6DE6F991ECC00E1F97727A3BFA /* WRURLConnectionDelegate.m */,
+				FA93619686000344BC8A135A93CE711C /* WRURLSessionDelegate.h */,
+				9CBC2A54A292E43C9590B371928B71E8 /* WRURLSessionDelegate.m */,
+				BC53EA56BAAD413AEF70B836C0E5615C /* Support Files */,
+			);
+			name = WRHttpDNS;
+			path = WRHttpDNS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		503DA3E5A84E05333D31703C6A328B62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0249F4C3C233BD63E4D098EF0A3C34 /* AFNetworkReachabilityManager.h in Headers */,
+				F2FF443A16CB0D6ED73C34A0DC7AF7AE /* WRDNSProviderBase.h in Headers */,
+				876348BF39437AD9F670D3646518AC93 /* WRDNSProviderQcloud.h in Headers */,
+				72212991C1A17DEE294C684399E9A729 /* WRDNSRecord.h in Headers */,
+				EA32EBA1BCEBA0D5FB929BAED4CB075D /* WRevaluateServerTrust.h in Headers */,
+				561D8EACE0F3B989F812CB73AF33316D /* WRHttpDNSManager.h in Headers */,
+				893D6A6FF17EF279E29107691823C77C /* WRURLConnectionDelegate.h in Headers */,
+				37AE500202B27176F05B74346DDDC1AC /* WRURLSessionDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		43862F437157F5EE79FBD6CA53746C3C /* WRHttpDNS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FCC98698759EA288CDB8B3068213B1E /* Build configuration list for PBXNativeTarget "WRHttpDNS" */;
+			buildPhases = (
+				80AC93EB34CBBE6012CCC7386B1B42B3 /* Sources */,
+				8856325823CA4EB473FBBB559D228DA0 /* Frameworks */,
+				503DA3E5A84E05333D31703C6A328B62 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WRHttpDNS;
+			productName = WRHttpDNS;
+			productReference = 165FF92996ABD242DCFAE0E1C2D71FD6 /* libWRHttpDNS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B312C88925082C7E948EA6DC04E332B /* Pods-WRHttpDNSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D73833C2226B96FC2C5BE7851DC8C4AA /* Build configuration list for PBXNativeTarget "Pods-WRHttpDNSDemo" */;
+			buildPhases = (
+				2F0DA70C6491DA939147617616A8E476 /* Sources */,
+				D022A74D6B7E732A8933755643106560 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C7D1CB150384BDC40E22D841041C9D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-WRHttpDNSDemo";
+			productName = "Pods-WRHttpDNSDemo";
+			productReference = 819ACEA9A40A7473AF96D30180205648 /* libPods-WRHttpDNSDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6745A4B53A19F6EA38DD2BE66DA36182 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B312C88925082C7E948EA6DC04E332B /* Pods-WRHttpDNSDemo */,
+				43862F437157F5EE79FBD6CA53746C3C /* WRHttpDNS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F0DA70C6491DA939147617616A8E476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DFC2C9F5EF5E1C620DC0056D3F184D /* Pods-WRHttpDNSDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AC93EB34CBBE6012CCC7386B1B42B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA7B1F5C9AB965382ED17D383F03480 /* AFNetworkReachabilityManager.m in Sources */,
+				1D6F58BEC9D7B6B93D2200338F2221E3 /* LICENSE in Sources */,
+				FD8686A568BFEF0F585835339AC26C89 /* README.md in Sources */,
+				0B4EE50592CF6B6F5336C26C6A688BC1 /* WRDNSProviderBase.m in Sources */,
+				8FF5CA1F29C13D409DD175EFA94ABF4C /* WRDNSProviderQcloud.m in Sources */,
+				041E45270DB3E0EBAF26B84AEE1F429B /* WRDNSRecord.m in Sources */,
+				4C96CCEEBCC5A27630BA7C1FA08B4CB4 /* WRevaluateServerTrust.m in Sources */,
+				E0BEB260BDF6FF74224CE63E05694A74 /* WRHttpDNS-dummy.m in Sources */,
+				5BBDF106456916ECD10A455E35488094 /* WRHttpDNSManager.m in Sources */,
+				B3DE40992BD90A2E259ED29F34428A1A /* WRURLConnectionDelegate.m in Sources */,
+				EAC26FA9CD33D4B7885ACAF0122B11E5 /* WRURLSessionDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C7D1CB150384BDC40E22D841041C9D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WRHttpDNS;
+			target = 43862F437157F5EE79FBD6CA53746C3C /* WRHttpDNS */;
+			targetProxy = 49F63BE0C386EEF892E8C87511D33A0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1CCB8EC41786E7570A58AF0F5840AFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C5F596AA439438D6D40DE7BA71F8CC /* WRHttpDNS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WRHttpDNS/WRHttpDNS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1FD7A8217A713BBE4051FDBFB64F320C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28025B0EF6D949AEE5287251DBE5CADA /* Pods-WRHttpDNSDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		665552731DCC3A7BEB5A5075284C8A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F087F2B931A352CD2EE0DAC1AB860A4 /* Pods-WRHttpDNSDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E0FBB4645674E856161CA413AD9ED65B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C5F596AA439438D6D40DE7BA71F8CC /* WRHttpDNS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WRHttpDNS/WRHttpDNS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FCC98698759EA288CDB8B3068213B1E /* Build configuration list for PBXNativeTarget "WRHttpDNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CCB8EC41786E7570A58AF0F5840AFD1 /* Debug */,
+				E0FBB4645674E856161CA413AD9ED65B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73833C2226B96FC2C5BE7851DC8C4AA /* Build configuration list for PBXNativeTarget "Pods-WRHttpDNSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665552731DCC3A7BEB5A5075284C8A28 /* Debug */,
+				1FD7A8217A713BBE4051FDBFB64F320C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
