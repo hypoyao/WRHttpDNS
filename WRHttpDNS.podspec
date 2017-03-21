@@ -25,9 +25,12 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+1. A simple httpDNS framework, support http and https, but not SNI currently.
+2. High availability, request DNS info asynchronously, abandon overdue or unusable DNS Cache automatically, change DNS cache as network changed.
+3. Provide GoogleDNS service default, you can add other custom DNS service easily.
                    DESC
 
-  s.homepage     = "https://github.com/hypoyao/WRHttpDNS"
+  s.homepage     = "https://github.com/hypoyao/WRHttpDNS.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -64,7 +67,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+   s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -79,7 +82,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/hypoyao/WRHttpDNS", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/hypoyao/WRHttpDNS.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +93,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "WRhttpDNS/HttpDNS/*", "WRhttpDNS/HttpDNS/**/*.{h,m}"
+  s.source_files  = "HttpDNS/*", "HttpDNS/**/*.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 
