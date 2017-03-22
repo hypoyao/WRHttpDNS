@@ -30,7 +30,7 @@
 
 - (void)initSubViews {
     _requestUrlView = [[UITextView alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-300)/2, 20, 300,50)];
-    _requestUrlView.text = @"http://i.weread.qq.com/book/info?bookId=100014";
+    _requestUrlView.text = @"http://i.weread.qq.com";
     [_requestUrlView setFont:[UIFont fontWithName:@"PingFangSC-Medium" size:15]];
     [self.view addSubview:_requestUrlView];
     
